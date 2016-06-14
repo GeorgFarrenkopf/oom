@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task2
 {
-	class program
+	class Program
 	{
 		static void Main(string[] args)
 		{
@@ -18,7 +18,7 @@ namespace Task2
 				x.UpdateName ("Scott");
 				Console.WriteLine (x.Name);
 			}
-		catch (Exception ex)
+			catch (Exception ex)
 			{
 				Console.WriteLine($"Error:{ex}");
 			}
